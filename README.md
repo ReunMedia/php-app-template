@@ -27,16 +27,21 @@ composer outdated -D
 pnpm outdated
 ```
 
-> [!TIP]
->
-> If there are new major releases of packages out, submit a pull request.
+If there are new major releases of packages out, feel free to submit a pull
+request.
 
 ### Start development servers
 
 ```sh
-composer dev
 pnpm dev
+composer dev
 ```
+
+You must run `pnpm dev` before `composer dev` if you want to use the dev server.
+You can also run `pnpm build` instead of starting a dev server. See
+[`reun/twig-utilities`
+documentation](https://github.com/Reun-Media/twig-utilities/blob/master/docs/ViteAsset.md#vite-dev-server-detection)
+for more info.
 
 > [!TIP]
 > After initial setup, remove the section above and replace README with the
