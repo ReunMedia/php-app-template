@@ -1,5 +1,5 @@
 {
-    "name": "app/app",
+    "name": "reun/php-app-template",
     "description": "Extendable PHP app template based on Slim Framework",
     "authors": [
         {
