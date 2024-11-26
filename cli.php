@@ -7,7 +7,7 @@
  *
  * @copyright 2020 Reun Media
  *
- * @see https://gitlab.com/reun/webdev/generator-reun-webapp
+ * @see https://github.com/Reun-Media/php-app-template
  *
  * @version 2.0.0
  */
