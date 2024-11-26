@@ -1,0 +1,13 @@
+#
+# Reun Media Browserslist
+#
+# @author Reun Media <company@reun.eu>
+# @copyright 2022 Reun Media
+#
+# @see https://github.com/Reun-Media/project-templates
+#
+# @version 1.0.2
+#
+
+defaults
+maintained node versions

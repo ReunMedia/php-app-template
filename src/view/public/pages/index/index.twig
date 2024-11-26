@@ -1,0 +1,29 @@
+{# Set layout variables before extending the layout #}
+{% set metaDescription = 'Welcome to my website!' %}
+
+{% extends 'public/layouts/default.twig' %}
+
+{% block content %}
+  <main>
+    <h1>
+      Welcome to Reun Media PHP App Template
+    </h1>
+    <p>
+      Here are some things to do to get started:
+    </p>
+    <ul>
+      <li>Add environment variables to <code>.env</code> files</li>
+      <li>Add configuration values to <code>AppConfig</code> class</li>
+      <li>Add pages to <code>src/view/public/pages</code> directory</li>
+      <li>
+        Create actions (controllers) and add routes to <code>AppRoutes</code>
+      </li>
+      <li>Register Twig filters and functions in <code>AppExtension</code></li>
+      <li>Start writing TypeScript and CSS in <code>src-www</code></li>
+      <li>Create favicon source files in <code>src-www/favicon</code></li>
+    </ul>
+    <p>
+      See <code>README.md</code> in the project directory for more info.
+    </p>
+  </main>
+{% endblock %}
