@@ -4,11 +4,19 @@ A starter template for PHP projects.
 
 ## Getting started
 
+### Create project
+
+This template is not published to Packagist, so use the command below to create
+a new project.
+
+```sh
+composer create-project reun/php-app-template myapp --repository="{\"url\": \"https://github.com/Reun-Media/php-app-template\", \"type\": \"vcs\"}" --stability=dev --remove-vcs
+```
+
 ### Install dependencies
 
 ```sh
-cd app
-composer install
+cd myapp
 pnpm install
 ```
 
