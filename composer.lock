@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f461b49f70d6395302753d9b3e0bbf1",
+    "content-hash": "7f3daf96875410de485761bb427f6977",
     "packages": [
         {
             "name": "composer/class-map-generator",
