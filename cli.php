@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Project CLI entry point.
  *
