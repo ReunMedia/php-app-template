@@ -1,6 +1,7 @@
 {
     "name": "reun/php-app-template",
     "description": "Extendable PHP app template based on Slim Framework",
+    "type": "project",
     "authors": [
         {
             "name": "Reun Media",
