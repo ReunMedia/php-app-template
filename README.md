@@ -13,22 +13,20 @@ a new project.
 composer create-project reun/php-app-template myapp --repository="{\"url\": \"https://github.com/Reun-Media/php-app-template\", \"type\": \"vcs\"}" --stability=dev --remove-vcs
 ```
 
-### Install dependencies
+### Install latest versions of dependencies
 
 ```sh
 cd myapp
-pnpm install
+pnpm update
+composer update
 ```
 
-### Check for outdated packages
+`update` is used instead of `install` to update lockfiles to latest versions of
+dependencies.
 
-```sh
-composer outdated -D
-pnpm outdated
-```
-
-If there are new major releases of packages out, feel free to submit a pull
-request.
+Run `composer outdated -D` and `pnpm outdated` periodically to check for
+outdated packages. If there are new major releases of packages out, feel free to
+[submit a pull request](https://github.com/Reun-Media/php-app-template/pulls).
 
 ### Start development servers
 
@@ -43,11 +41,19 @@ You can also run `pnpm build` instead of starting a dev server. See
 documentation](https://github.com/Reun-Media/twig-utilities/blob/master/docs/ViteAsset.md#vite-dev-server-detection)
 for more info.
 
-> [!TIP]
-> After initial setup, remove the section above and replace README with the
-> template below the line.
+## Additional information
+
+### `composer.json` package type
+
+The default type for package in `composer.json` is `project`. Remove it or
+change to `library` if creating a library.
 
 ---
+
+> [!TIP]
+>
+> After initial setup, remove the section above and replace README with the
+> template below.
 
 # My Project
 
