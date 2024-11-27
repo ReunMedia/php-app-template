@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e52685a5a9ca4dda85b9dfc7e3686ca",
+    "content-hash": "1f461b49f70d6395302753d9b3e0bbf1",
     "packages": [
         {
             "name": "composer/class-map-generator",
@@ -2139,16 +2139,16 @@
         },
         {
             "name": "reun/php-app-config",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:Reun-Media/php-app-config.git",
-                "reference": "25b5fcd14defc36ac765dd99cf496a8047f8845f"
+                "url": "https://github.com/Reun-Media/php-app-config.git",
+                "reference": "e489b74b190aa848d4d3b2c5a517fabcfc0a095a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Reun-Media/php-app-config/zipball/25b5fcd14defc36ac765dd99cf496a8047f8845f",
-                "reference": "25b5fcd14defc36ac765dd99cf496a8047f8845f",
+                "url": "https://api.github.com/repos/Reun-Media/php-app-config/zipball/e489b74b190aa848d4d3b2c5a517fabcfc0a095a",
+                "reference": "e489b74b190aa848d4d3b2c5a517fabcfc0a095a",
                 "shasum": ""
             },
             "require": {
@@ -2166,15 +2166,9 @@
                     "Reun\\PhpAppConfig\\": "src/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "composer normalize",
-                    "vendor/bin/php-cs-fixer fix .",
-                    "vendor/bin/phpstan"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -2187,29 +2181,30 @@
                     "homepage": "https://reun.eu"
                 }
             ],
+            "description": "Reusable base configuration for PHP apps",
             "support": {
-                "source": "https://github.com/Reun-Media/php-app-config/tree/0.2.0",
-                "issues": "https://github.com/Reun-Media/php-app-config/issues"
+                "issues": "https://github.com/Reun-Media/php-app-config/issues",
+                "source": "https://github.com/Reun-Media/php-app-config/tree/0.3.0"
             },
-            "time": "2024-10-15T13:36:00+00:00"
+            "time": "2024-11-21T18:08:13+00:00"
         },
         {
             "name": "reun/php-app-definitions",
-            "version": "0.0.2",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:Reun-Media/php-app-definitions.git",
-                "reference": "6eba1ff2ba6ea3a7606be0c08a95030a8a4cf7e6"
+                "url": "https://github.com/Reun-Media/php-app-definitions.git",
+                "reference": "98684bca12f408547e8aee04b2ab71e80506e0ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Reun-Media/php-app-definitions/zipball/6eba1ff2ba6ea3a7606be0c08a95030a8a4cf7e6",
-                "reference": "6eba1ff2ba6ea3a7606be0c08a95030a8a4cf7e6",
+                "url": "https://api.github.com/repos/Reun-Media/php-app-definitions/zipball/98684bca12f408547e8aee04b2ab71e80506e0ed",
+                "reference": "98684bca12f408547e8aee04b2ab71e80506e0ed",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.3",
-                "reun/php-app-config": "^0.2.0"
+                "reun/php-app-config": "^0.3.0"
             },
             "require-dev": {
                 "bnf/phpstan-psr-container": "^1.0",
@@ -2243,38 +2238,33 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Reun\\PhpAppDefinitions\\": "src/",
-                    "Tests\\": "tests/"
+                    "Tests\\": "tests/",
+                    "Reun\\PhpAppDefinitions\\": "src/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "composer normalize",
-                    "vendor/bin/php-cs-fixer fix .",
-                    "vendor/bin/phpstan"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Package definitions and configurations for Reun Media PHP App Template",
             "support": {
-                "source": "https://github.com/Reun-Media/php-app-definitions/tree/0.0.2",
-                "issues": "https://github.com/Reun-Media/php-app-definitions/issues"
+                "issues": "https://github.com/Reun-Media/php-app-definitions/issues",
+                "source": "https://github.com/Reun-Media/php-app-definitions/tree/0.1.1"
             },
-            "time": "2024-11-21T14:15:10+00:00"
+            "time": "2024-11-27T10:14:30+00:00"
         },
         {
             "name": "reun/twig-utilities",
-            "version": "0.11.0",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:Reun-Media/twig-utilities.git",
-                "reference": "b4b51f085fa2e5500039df1d2aa14d7eeefd1840"
+                "url": "https://github.com/Reun-Media/twig-utilities.git",
+                "reference": "65ef250d79cee81f6f24d8258b9dbb2d10753ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Reun-Media/twig-utilities/zipball/b4b51f085fa2e5500039df1d2aa14d7eeefd1840",
-                "reference": "b4b51f085fa2e5500039df1d2aa14d7eeefd1840",
+                "url": "https://api.github.com/repos/Reun-Media/twig-utilities/zipball/65ef250d79cee81f6f24d8258b9dbb2d10753ea5",
+                "reference": "65ef250d79cee81f6f24d8258b9dbb2d10753ea5",
                 "shasum": ""
             },
             "require": {
@@ -2288,6 +2278,7 @@
                 "friendsofphp/php-cs-fixer": "^3.64",
                 "php-di/php-di": "^6.0",
                 "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
                 "phpunit/phpunit": "^9.1",
                 "psr/http-message": "^2.0",
                 "psr/http-server-handler": "^1.0",
@@ -2308,35 +2299,27 @@
                     "Reun\\TwigUtilities\\": "src/TwigUtilities"
                 }
             },
-            "scripts": {
-                "dev": [
-                    "Composer\\Config::disableProcessTimeout",
-                    "php -S localhost:8080 -t tests/functional/TwigUtilities"
-                ],
-                "lint": [
-                    "composer normalize",
-                    "vendor/bin/php-cs-fixer fix .",
-                    "vendor/bin/phpstan"
-                ],
-                "test": [
-                    "phpunit --bootstrap vendor/autoload.php tests/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Kimmo Salmela",
-                    "email": "cryszon@gmail.com"
+                    "email": "kimmo.salmela@reun.eu"
+                },
+                {
+                    "name": "Reun Media",
+                    "email": "company@reun.eu",
+                    "homepage": "https://reun.eu"
                 }
             ],
             "description": "Various Twig utilities and extensions",
             "support": {
-                "source": "https://github.com/Reun-Media/twig-utilities/tree/0.11.0",
-                "issues": "https://github.com/Reun-Media/twig-utilities/issues"
+                "issues": "https://github.com/Reun-Media/twig-utilities/issues",
+                "source": "https://github.com/Reun-Media/twig-utilities/tree/0.12.0"
             },
-            "time": "2024-11-14T12:29:04+00:00"
+            "time": "2024-11-21T17:23:30+00:00"
         },
         {
             "name": "slim/psr7",
