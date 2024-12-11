@@ -1,12 +1,12 @@
 /**
  * Reun Media Vite configuration for PHP projects.
  *
- * @author Kimmo Salmela <kimmo.salmela@reun.eu>
+ * @author Reun Media <company@reun.eu>
  * @copyright 2021 Reun Media
  *
  * @see https://github.com/Reun-Media/php-app-template
  *
- * @version 2.0.0
+ * @version 2.0.1
  */
 
 import { defineConfig } from "vite";
