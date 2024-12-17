@@ -48,6 +48,11 @@ for more info.
 The default type for package in `composer.json` is `project`. Remove it or
 change to `library` if creating a library.
 
+## Additional setup tasks
+
+- [ ] Change badges to point to your package in Packagist or remove them
+- [ ] Add `LICENSE`
+
 ---
 
 > [!TIP]
@@ -55,43 +60,51 @@ change to `library` if creating a library.
 > After initial setup, remove the section above and replace README with the
 > template below.
 
-# My Project
+<details>
 
-Short description of the project.
-
-## Installation
-
-```sh
-composer require myorg/mypackage
-```
-
-## Configuration
-
-Add configuration steps here.
-
-## Usage
-
-Describe how to use the package.
-
-## Development
-
-This repository includes a [dev container](https://containers.dev/) that can be
-used to launch a development environment.
-
-Run tests:
-
-```sh
-composer test
-```
-
-Start dev server:
-
-```sh
-composer dev
-```
-
-Run PHP CS Fixer and PHPStan:
-
-```sh
-composer lint
-```
+  <summary>Show README template</summary>
+  
+  # My Project
+  
+  [![Supported PHP Version](https://img.shields.io/packagist/dependency-v/reun/mypackage/PHP?logo=PHP&logoColor=777BB3&color=777BB3)](https://www.php.net/supported-versions.php)
+  [![Packagist Version](https://img.shields.io/packagist/v/reun/mypackage)](https://packagist.org/packages/reun/mypackage)
+  
+  Short description of the project.
+  
+  ## Installation
+  
+  ```sh
+  composer require myorg/mypackage
+  ```
+  
+  ## Configuration
+  
+  Add configuration steps here.
+  
+  ## Usage
+  
+  Describe how to use the package.
+  
+  ## Development
+  
+  This repository includes a [dev container](https://containers.dev/) that can be
+  used to launch a development environment.
+  
+  Run tests:
+  
+  ```sh
+  composer test
+  ```
+  
+  Start dev server:
+  
+  ```sh
+  composer dev
+  ```
+  
+  Run PHP CS Fixer and PHPStan:
+  
+  ```sh
+  composer lint
+  ```
+</details>
