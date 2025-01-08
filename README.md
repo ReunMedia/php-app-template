@@ -48,6 +48,21 @@ for more info.
 The default type for package in `composer.json` is `project`. Remove it or
 change to `library` if creating a library.
 
+### Application root in subdirectory and VS Code extensions
+
+If you use a subdirectory for the application, you should add following
+configuration to `.vscode/settings.json` to use PHPStan and PHP CS Fixer
+extensions (replace `app` with the app root directory):
+
+```json
+// .vscode/settings.json
+{
+  "phpstan.rootDir": "app",
+  "php-cs-fixer.config": "app/.php-cs-fixer.php"
+}
+
+```
+
 ## Additional setup tasks
 
 - [ ] Change badges to point to your package in Packagist or remove them
