@@ -110,6 +110,13 @@ extensions (replace `app` with the app root directory):
   ```sh
   composer test
   ```
+
+  Generate code coverage report (see [Pest Test
+  Coverage](https://pestphp.com/docs/test-coverage) for more):
+
+  ```sh
+  composer test -- --coverage
+  ```
   
   Start dev server:
   
