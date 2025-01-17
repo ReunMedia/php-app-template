@@ -4,14 +4,14 @@
   This variable is used to construct a simple dynamic `Mypage - My Website`
   title. Plain `My Website` is displayed for index.
 #}
-{% set siteName = 'My Website' %}
+{% set siteName = "My Website" %}
 
-{% set title = pageName and pageName != 'index'
-  ? (pageName|capitalize) ~ ' - ' ~ siteName
+{% set title = pageName and pageName != "index"
+  ? (pageName|capitalize) ~ " - " ~ siteName
   : siteName
 %}
 
-{% set lang = 'en' %}
+{% set lang = "en" %}
 
 <!DOCTYPE html>
 <html class="no-js" lang="{{ lang }}">
@@ -33,17 +33,17 @@
         {{ globals.title|default(title) }}
       </title>
 
-      {% include 'public/layouts/partials/_favicons.twig' %}
+      {% include "public/layouts/partials/_favicons.twig" %}
 
-      {{ viteAsset('src-www/css/style.css') }}
-      {{ viteAsset('src-www/js/main.ts') }}
+      {{ viteAsset("src-www/css/style.css") }}
+      {{ viteAsset("src-www/js/main.ts") }}
     {% endblock %}
   </head>
   <body>
     {% block body %}
       <div class="container">
         {% block header %}
-          {% include 'public/layouts/partials/_header.twig' %}
+          {% include "public/layouts/partials/_header.twig" %}
         {% endblock %}
 
         {% block content %}
@@ -51,7 +51,7 @@
         {% endblock %}
 
         {% block footer %}
-          {% include 'public/layouts/partials/_footer.twig' %}
+          {% include "public/layouts/partials/_footer.twig" %}
         {% endblock %}
       </div>
     {% endblock %}

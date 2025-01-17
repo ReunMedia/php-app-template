@@ -60,7 +60,6 @@ extensions (replace `app` with the app root directory):
   "phpstan.rootDir": "app",
   "php-cs-fixer.config": "app/.php-cs-fixer.php"
 }
-
 ```
 
 ## Additional setup tasks
@@ -77,56 +76,57 @@ extensions (replace `app` with the app root directory):
 
 <details>
 
-  <summary>Show README template</summary>
-  
-  # My Project
-  
-  [![Supported PHP Version](https://img.shields.io/packagist/dependency-v/reun/mypackage/PHP?logo=PHP&logoColor=777BB3&color=777BB3)](https://www.php.net/supported-versions.php)
-  [![Packagist Version](https://img.shields.io/packagist/v/reun/mypackage)](https://packagist.org/packages/reun/mypackage)
-  
-  Short description of the project.
-  
-  ## Installation
-  
-  ```sh
-  composer require myorg/mypackage
-  ```
-  
-  ## Configuration
-  
-  Add configuration steps here.
-  
-  ## Usage
-  
-  Describe how to use the package.
-  
-  ## Development
-  
-  This repository includes a [dev container](https://containers.dev/) that can be
-  used to launch a development environment.
-  
-  Run tests:
-  
-  ```sh
-  composer test
-  ```
+<summary>Show README template</summary>
 
-  Generate code coverage report (see [Pest Test
-  Coverage](https://pestphp.com/docs/test-coverage) for more):
+# My Project
 
-  ```sh
-  composer test -- --coverage
-  ```
-  
-  Start dev server:
-  
-  ```sh
-  composer dev
-  ```
-  
-  Run PHP CS Fixer and PHPStan:
-  
-  ```sh
-  composer lint
-  ```
+[![Supported PHP Version](https://img.shields.io/packagist/dependency-v/reun/mypackage/PHP?logo=PHP&logoColor=777BB3&color=777BB3)](https://www.php.net/supported-versions.php)
+[![Packagist Version](https://img.shields.io/packagist/v/reun/mypackage)](https://packagist.org/packages/reun/mypackage)
+
+Short description of the project.
+
+## Installation
+
+```sh
+composer require myorg/mypackage
+```
+
+## Configuration
+
+Add configuration steps here.
+
+## Usage
+
+Describe how to use the package.
+
+## Development
+
+This repository includes a [dev container](https://containers.dev/) that can be
+used to launch a development environment.
+
+Run tests:
+
+```sh
+composer test
+```
+
+Generate code coverage report (see [Pest Test
+Coverage](https://pestphp.com/docs/test-coverage) for more):
+
+```sh
+composer test -- --coverage
+```
+
+Start dev server:
+
+```sh
+composer dev
+```
+
+Run PHP CS Fixer and PHPStan:
+
+```sh
+composer lint
+```
+
 </details>
