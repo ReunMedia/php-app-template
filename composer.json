@@ -54,6 +54,7 @@
         "itsgoingd/clockwork": "Less portable alternative to PHP Debug Bar",
         "respect/validation": "Server-side validation",
         "reun/test-utilities": "Additional testing utilites",
+        "symfony/var-dumper": "Use dump() with Buggregator",
         "twig/intl-extra": "Intl Twig extension",
         "twig/markdown-extra": "Twig Markdown support"
     },
