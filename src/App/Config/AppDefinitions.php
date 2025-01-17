@@ -6,6 +6,7 @@ namespace App\Config;
 
 use Reun\PhpAppConfig\Config\DefinitionsInterface;
 use Reun\PhpAppConfig\Config\RoutesInterface;
+use Reun\PhpAppDefinitions\Config\SlimConfig;
 use Reun\PhpAppDefinitions\Definitions\DoctrineOrmDefinitions;
 use Reun\PhpAppDefinitions\Definitions\MonologDefinitions;
 use Reun\PhpAppDefinitions\Definitions\PhpDebugBarDefinitions;
@@ -58,6 +59,9 @@ class AppDefinitions implements DefinitionsInterface
         $c = [];
 
         $c[RoutesInterface::class] = fn (AppRoutes $x) => $x;
+
+        // Use custom SlimConfig to specify additional middleware
+        $c[SlimConfig::class] = fn (AppSlimConfig $x) => $x;
 
         return $c;
     }
