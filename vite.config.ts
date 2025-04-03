@@ -4,7 +4,7 @@
  * @author Reun Media <company@reun.eu>
  * @copyright 2021 Reun Media
  *
- * @see https://github.com/Reun-Media/php-app-template
+ * @see https://github.com/ReunMedia/php-app-template
  *
  * @version 2.0.1
  */

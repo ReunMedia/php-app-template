@@ -10,7 +10,7 @@ This template is not published to Packagist, so use the command below to create
 a new project.
 
 ```sh
-composer create-project reun/php-app-template myapp --repository="{\"url\": \"https://github.com/Reun-Media/php-app-template\", \"type\": \"vcs\"}" --stability=dev --remove-vcs
+composer create-project reun/php-app-template myapp --repository="{\"url\": \"https://github.com/ReunMedia/php-app-template\", \"type\": \"vcs\"}" --stability=dev --remove-vcs
 ```
 
 ### Install latest versions of dependencies
@@ -26,7 +26,7 @@ dependencies.
 
 Run `composer outdated -D` and `pnpm outdated` periodically to check for
 outdated packages. If there are new major releases of packages out, feel free to
-[submit a pull request](https://github.com/Reun-Media/php-app-template/pulls).
+[submit a pull request](https://github.com/ReunMedia/php-app-template/pulls).
 
 ### Start development servers
 
@@ -38,7 +38,7 @@ composer dev
 You must run `pnpm dev` before `composer dev` if you want to use the dev server.
 You can also run `pnpm build` instead of starting a dev server. See
 [`reun/twig-utilities`
-documentation](https://github.com/Reun-Media/twig-utilities/blob/master/docs/ViteAsset.md#vite-dev-server-detection)
+documentation](https://github.com/ReunMedia/twig-utilities/blob/master/docs/ViteAsset.md#vite-dev-server-detection)
 for more info.
 
 ## Additional information
