@@ -50,6 +50,9 @@
     "marked": {
       "optional": true
     },
+    "prettier-plugin-tailwindcss": {
+      "optional": true
+    },
     "tailwindcss": {
       "optional": true
     },

@@ -6,12 +6,13 @@
  *
  * @see https://github.com/ReunMedia/php-app-template
  *
- * @version 2.0.1
+ * @version 2.1.1
  */
 
 import { defineConfig } from "vite";
 import liveReload from "vite-plugin-live-reload";
 import { fileURLToPath } from "url";
+// import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   build: {
@@ -38,5 +39,8 @@ export default defineConfig({
       ignored: ["**/vendor/**"],
     },
   },
-  plugins: [liveReload(["./src/**/.(php|twig)"])],
+  plugins: [
+    liveReload(["./src/**/.(php|twig)"]),
+    // tailwindCss() // Enable if using Tailwind
+  ],
 });
